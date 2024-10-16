@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-lxk_*(9&m&)(i_fd2#x5osxculnmn$&t8kdza$+&4ifqgnkt$d
 DEBUG = True
 
 ALLOWED_HOSTS = [
-	"6063-polls-env.eba-bnhwwk7k.us-west-2.elasticbeanstalk.com",
+    "6063-polls-env.eba-bnhwwk7k.us-west-2.elasticbeanstalk.com",
     "localhost",
     "django-env.eba-kuxi7nbk.us-west-2.elasticbeanstalk.com",
 ]
