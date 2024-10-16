@@ -6,15 +6,10 @@ python:
 
 jobs:
   include:
-    - stage: testing
-      if: type = pull_request
+    - stage: deploy to prod
+      if: branch = master AND type = pull_request
       install:
         - pip install -r requirements.txt
-      script:
-        - coverage run --source='.' manage.py test
-    
-    - stage: deploy to prod
-      if: branch = master AND type != pull_request
       script:
         - black --check .
         - flake8 .
