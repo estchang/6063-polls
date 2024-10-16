@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "6063-polls-env.eba-bnhwwk7k.us-west-2.elasticbeanstalk.com",
     "localhost",
+    "127.0.0.1",
     "django-env.eba-kuxi7nbk.us-west-2.elasticbeanstalk.com",
 ]
 
